@@ -1,0 +1,5 @@
+C:\Users\luna\Desktop\ReadINI\ReadINI\bin\Debug\ReadINI.dll
+C:\Users\luna\Desktop\ReadINI\ReadINI\bin\Debug\ReadINI.pdb
+C:\Users\luna\Desktop\ReadINI\ReadINI\obj\Debug\ReadINI.csprojResolveAssemblyReference.cache
+C:\Users\luna\Desktop\ReadINI\ReadINI\obj\Debug\ReadINI.dll
+C:\Users\luna\Desktop\ReadINI\ReadINI\obj\Debug\ReadINI.pdb
