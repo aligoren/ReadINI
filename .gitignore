@@ -5,8 +5,6 @@
 
 #Visual Studio Files
 [Oo]bj
-[Bb]in
-[Dd]ebug
 [Bb]uild/
 *.user
 *.suo
@@ -47,9 +45,7 @@ Ankh.NoLoad
 #Other
 .svn
 
-# Include DLLs if they're in the NuGet packages directory
-!/packages/*/lib/*.dll
-!/packages/*/lib/*/*.dll
+
 =======
 # User-specific files
 *.suo
