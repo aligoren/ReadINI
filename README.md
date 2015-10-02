@@ -6,7 +6,7 @@ ReadINI Class for Read your .ini Files
 
 *Write data in your .ini file*
 
-```
+```cs
 var rini = new ReadINI(@"C:\FakePath\Settings.ini");
 rini.Write("Some Key", "Some Value", "Some Section. !Default value null");
 ```
@@ -15,7 +15,7 @@ rini.Write("Some Key", "Some Value", "Some Section. !Default value null");
 
 *Read data in your .ini file*
 
-```
+```cs
 var rini = new ReadINI(@"C:\FakePath\Settings.ini");
 rini.Read("SomeKey", "SomeSection");
 ```
@@ -24,7 +24,7 @@ rini.Read("SomeKey", "SomeSection");
 
 *Delete key data in your .ini file*
 
-```
+```cs
 var rini = new ReadINI(@"C:\FakePath\Settings.ini");
 rini.DeleteKey("Some Key", "Some Section");
 ```
@@ -33,7 +33,7 @@ rini.DeleteKey("Some Key", "Some Section");
 
 *Delete section data in your .ini file*
 
-```
+```cs
 var rini = new ReadINI(@"C:\FakePath\Settings.ini");
 rini.DeleteSection("Some Section");
 ```
@@ -42,7 +42,7 @@ rini.DeleteSection("Some Section");
 
 *Check Key Exists in your .ini file*
 
-```
+```cs
 var rini = new ReadINI(@"C:\FakePath\Settings.ini");
 if(!rini.KeyExists("SomeKey", "SomeSection")
 {
